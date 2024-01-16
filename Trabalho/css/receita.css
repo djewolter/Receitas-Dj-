@@ -1,0 +1,138 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: bisque;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+nav {
+  background-color: brown;
+  margin: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: flex-start;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.li-items {
+  margin: 0 10px;
+}
+
+main {
+  flex: 1;
+}
+
+.div-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.meu-item-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-menu-itens {
+  display: flex;
+  flex-direction: column;
+}
+
+.logotipo {
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+}
+
+nav ul li {
+  margin: 0 10px;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+nav ul li.active {
+  border-bottom: 2px solid #ff6600;
+  opacity: 1;
+  color: #ff6600;
+}
+
+nav ul li:hover {
+  border-bottom: 2px solid #0077cc;
+  opacity: 0.8;
+  color: rgb(19, 16, 16);
+}
+
+.principal {
+  display: flex;
+  background-color: rgba(137, 231, 192, 0.336);
+  padding: 0 10px;
+  height: 90%;
+}
+
+.principal-itens {
+  background-color: rgba(218, 125, 118, 0.705);
+  margin: 10px;
+  padding: 0 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.receita-itens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-brownie {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.ul-style {
+  display: flex;
+  flex-direction: column;
+  list-style-type: circle;
+  padding: 10px;
+}
+footer {
+  background-color: darkred;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  height: 30;
+}
+
+.my-div-style {
+  display: flex;  justify-content: center;  align-items: center;  height: 100%;
+}
